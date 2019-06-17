@@ -54,7 +54,7 @@ Calculator.prototype = {
         this.multiply(this.runningTotal);
         break;
         case ('/'):
-        this.divide(this.runningTotal);
+          this.divide(this.runningTotal);
         break;
       }
     }
